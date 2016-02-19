@@ -83,6 +83,7 @@ public class MainActivityFragment extends Fragment {
         mItems.add(getString(R.string.item_animations));
         mItems.add(getString(R.string.item_files));
         mItems.add(getString(R.string.item_db));
+        mItems.add(getString(R.string.item_first_md));
     }
 
 

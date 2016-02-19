@@ -3,5 +3,15 @@
     <string name="item_animations">Animaciones</string>
     <string name="item_files">Ficheros</string>
     <string name="item_db">BD SQLite</string>
+    <string name="item_first_md">Primeros pasos con Material Design</string>
     <string name="persona">Persona:</string>
+    <string name="drawer_open">Navigation Abierta</string>
+    <string name="drawer_close">Navigation Cerrada</string>
+
+    <string-array name="countries">
+        <item>España</item>
+        <item>Portugal</item>
+        <item>Francia</item>
+        <item>Alemania</item>
+    </string-array>
 </resources>

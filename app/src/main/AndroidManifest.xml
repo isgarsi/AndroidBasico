@@ -30,6 +30,9 @@
         <activity android:name=".activities.DBActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.FirstTestMD"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
