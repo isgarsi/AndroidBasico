@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityFragm
 
     private static final int ANIMATIONS = 0;
     private static final int FILES = 1;
+    private static final int DB = 2;
 
 
     @Override
@@ -38,6 +39,9 @@ public class MainActivity extends AppCompatActivity implements MainActivityFragm
                 break;
             case FILES:
                 intent = new Intent(this,FilesActivity.class);
+                break;
+            case DB:
+                intent = new Intent(this,DBActivity.class);
                 break;
             default:
                 break;

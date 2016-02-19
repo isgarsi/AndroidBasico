@@ -2,4 +2,6 @@
     <string name="app_name">AndroidBasico</string>
     <string name="item_animations">Animaciones</string>
     <string name="item_files">Ficheros</string>
+    <string name="item_db">BD SQLite</string>
+    <string name="persona">Persona:</string>
 </resources>
