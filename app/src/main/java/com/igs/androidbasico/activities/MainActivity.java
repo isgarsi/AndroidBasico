@@ -16,6 +16,7 @@ import com.igs.androidbasico.fragments.MainActivityFragment;
 public class MainActivity extends AppCompatActivity implements MainActivityFragment.OnMainFragmentInteractionListener{
 
     private static final int ANIMATIONS = 0;
+    private static final int FILES = 1;
 
 
     @Override
@@ -34,6 +35,9 @@ public class MainActivity extends AppCompatActivity implements MainActivityFragm
         switch (option){
             case ANIMATIONS:
                 intent = new Intent(this,AnimationsActivity.class);
+                break;
+            case FILES:
+                intent = new Intent(this,FilesActivity.class);
                 break;
             default:
                 break;

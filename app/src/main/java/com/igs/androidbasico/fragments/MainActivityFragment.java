@@ -81,6 +81,7 @@ public class MainActivityFragment extends Fragment {
     private void fillItems(){
         mItems = new ArrayList<String>();
         mItems.add(getString(R.string.item_animations));
+        mItems.add(getString(R.string.item_files));
     }
 
 
